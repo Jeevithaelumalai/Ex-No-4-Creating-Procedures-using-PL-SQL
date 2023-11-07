@@ -8,7 +8,7 @@
 4.End the procedure.
 5.Call the insert_employee data procedure to insert the values into the employee table.
 6.Display the employee table
-Program:
+### Program:
 ```
 CREATE TABLE employee (
   empid INT PRIMARY KEY,
@@ -38,8 +38,8 @@ CALL insert_employee_data(1, 'John', 'HR', 50000.00);
 CALL insert_employee_data(2, 'jeevita', 'IT', 60000.00);
 SELECT * FROM employee;
 ```
-Output:
+### Output:
 ![image](https://github.com/Jeevithaelumalai/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/118708245/cfcbd780-5025-496b-8370-c90907ec97e4)
 
-Result:
+### Result:
 The procedures has been successfully created using PL\SQL.
